@@ -393,6 +393,7 @@ header{
     resize: none;
     border-radius: 25px;
     transition: .3s;
+    color: #fff;
 }
 
 .child_contact form .submit{
