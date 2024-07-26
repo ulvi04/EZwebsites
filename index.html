@@ -187,12 +187,15 @@
                 <img src="./img/contactt.png" alt="">
             </div>
             <div class="child_contact">
-                <form action="#">
-                    <input placeholder="Name" type="text" name="fullname" id="">
-                    <input placeholder="E-mail" type="email" name="fullname" id="">
-                    <input placeholder="Phone Number" type="phone" name="fullname" id="">
+                <form action="https://formsubmit.co/u040210@gmail.com" method="POST">
+                    <input placeholder="Name" type="text" name="name" id="">
+                    <input placeholder="E-mail" type="email" name="email" id="">
+                    <input placeholder="Subject" type="text" name="subject" id="">
                     <textarea placeholder="Message" name="message" id="" cols="30" rows="10"></textarea>
-                    <input type="submit" value="Send">
+                    <input type="hidden" name="_captcha" value="false">
+                    <input type="hidden" name="_template" value="table">
+                    <input class="submit" type="submit" value="Send">
+                    <input type="hidden" name="_autoresponse" value="Thanks for contacting!!! ">
                 </form>
             </div>
         </div>
