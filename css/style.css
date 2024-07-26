@@ -381,23 +381,37 @@ header{
 
 .child_contact form{
     padding: 50px 40px;
-    background: #2F363E;
-    border-radius: 5px;
+    background: #24292D;
+    border-radius: 15px;
 }
 .child_contact form input, textarea{
     width: 100%;
     padding: 10px;
     margin-bottom: 20px;
-    background: #24292D;
+    background: #2F363E;
     border: none;
     resize: none;
     border-radius: 25px;
     transition: .3s;
 }
 
+.child_contact form .submit{
+    background: #24CAAC;
+    margin: 0;
+    border: 1px solid #24CAAC;
+    color: #fff;
+    transition: .3s;
+    cursor: pointer;
+}
+
+.child_contact form .submit:hover{
+    background: transparent;
+    border: 1px solid #24CAAC;
+}
+
 
 .child_contact form input, textarea:focus{
-    color: #fff;
+    color: #000000;
 }
 
 
@@ -508,6 +522,7 @@ footer{
     border: 1px solid #24CAAC;
     color: #fff;
     transition: .3s;
+    cursor: pointer;
 }
 
 .child_footer form input:last-child:hover{
